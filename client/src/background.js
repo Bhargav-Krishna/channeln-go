@@ -18,6 +18,6 @@ class Example extends Component {
             </video>
         )
     }
-};
+}
 
 export default Example;
