@@ -195,7 +195,7 @@ const useStyles = makeStyles((theme) => ({
 export default function NgoLanding(props) {
     const classes = useStyles();
     const [email, sete] = React.useState(localStorage.mail);
-    const [name, setn] = React.useState(localStorage.name);
+    const [name] = React.useState(localStorage.name);
     console.log(email);
     console.log(name);
     const [value, setValue] = React.useState(0);
